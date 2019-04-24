@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+}
+
+h1, p {
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	color: pink;
+
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+table {
+	box-shadow: 5px 5px 5px pink;
+	width: 50%;
+	display: block;
+}
+
+
+table, th, td {
+	
+	border-collapse: collapse;
+}
+
+
+
+.banner {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-color:  red;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+
+
+ }
+
+
+.banner:after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background:inherit;
+	transform-origin: top left;
+	transform: skewY(3deg);
+	z-index: -1;
+}

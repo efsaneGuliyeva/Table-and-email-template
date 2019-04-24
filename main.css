@@ -1,0 +1,35 @@
+table, th, td {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+
+}
+
+a:active {
+	color: red;
+}
+
+
+table tr:nth-child(even)
+{
+	background-color: gray;
+}
+
+
+th {
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+
+
+tr:hover td {
+	background-color: pink;
+}
+
+td, th {
+	padding: 10px;
+}
+
+table {
+	border-spacing: 10px 5px;
+}
